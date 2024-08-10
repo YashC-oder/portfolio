@@ -1,0 +1,56 @@
+/* Container Styling */
+.Form {
+    border-radius: 1rem;
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+    max-width: 400px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+}
+
+/* Form Heading */
+.Form h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Submit Button */
+.submitButton {
+    padding: 0.70rem 1.2rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: black;
+    color: rgb(220, 220, 220);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #333;
+}
+
+/* Result Message */
+.resultMessage {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #42bc91;
+    background-color: #deeee9;
+}
+
+/* Error Message */
+.resultMessage.error {
+    color: red;
+    background-color: #ffe0e0;
+}

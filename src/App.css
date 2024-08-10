@@ -1,0 +1,22 @@
+body {
+    --app-bg-color: rgb(240, 240, 240);
+    background-color: var(--app-bg-color);
+    align-content: space-between;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--app-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #42bc91;
+}

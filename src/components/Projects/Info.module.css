@@ -1,0 +1,29 @@
+.body {
+    font-size: 0.8rem;
+}
+.heading {
+    color: rgb(66, 188, 145);
+    text-decoration: none;
+}
+.heading:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.body ul {
+    padding: 0 1.5rem;
+}
+.body li {
+    font-size:larger;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .body {
+        font-size: 1.2rem;
+        padding: 1rem;
+        max-width: 75%;
+    }
+    .body ul {
+        padding: 0 5rem;
+    }
+}

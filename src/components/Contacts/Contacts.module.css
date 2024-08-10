@@ -1,0 +1,45 @@
+.body {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.body h1 {
+    margin-bottom: 1rem;
+}
+
+.body p {
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.contactFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+@media screen and (min-width:780px){
+    .body {
+        padding: 7rem;
+        font-size: 1.2rem;
+    }
+    
+    .body h1 {
+        margin-bottom: 1rem;
+    }
+    
+    .body p {
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+    
+    .contactFormContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+    }
+}
